@@ -6,3 +6,63 @@ body {
 a {
   color: #00B7FF;
 }
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  background-color: white;
+  float: left;
+}
+
+nav button {
+  width: 52px;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav button.selected {
+  background-color: white;
+  padding: 8px 16px;
+  color: black;
+  border-right: #f1f1f1;
+  border-radius: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav button:hover:not(.selected) {
+  background-color: #555;
+  color: white;
+}
+
+#region-details {
+  width: 75%;
+  margin-left: 50px;
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 80px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 550px;
+}
+
+.table td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.left {
+  text-align: left;
+  margin-left: 1em;
+}
